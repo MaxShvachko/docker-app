@@ -1,7 +1,7 @@
 # To start the application
 
 - Step 1: install [Docker](https://docs.docker.com/get-docker/) 
-- Step 2: pull docker images for [mongo](https://hub.docker.com/_/mongo), [mongo-express](https://hub.docker.com/_/mongo-express), [node](https://hub.docker.com/_/node)
+- Step 2: pull docker images for [mongo](https://hub.docker.com/_/mongo), [mongo-express](https://hub.docker.com/_/mongo-express)
 `docker pull 'image name'`
 - Step 3: build a docker image from the application
   `docker build -t test-docker .`
